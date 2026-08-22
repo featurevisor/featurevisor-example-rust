@@ -34,6 +34,7 @@ jobs:
         uses: dtolnay/rust-toolchain@master
         with:
           toolchain: ${{ matrix.rust }}
+          components: rustfmt, clippy
 
       - name: Verify dependencies
         run: cargo check --locked
