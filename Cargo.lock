@@ -110,9 +110,9 @@ checksum = "877a4ace8713b0bcf2a4e7eec82529c029f1d0619886d18145fea96c3ffe5c0f"
 
 [[package]]
 name = "featurevisor"
-version = "0.1.0"
+version = "1.0.0"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "5e954a6c392472c41cb0703b3addba33c4629edad07a4f16d75a9d580c7b16c4"
+checksum = "5c6218f50bbd6749164d249f689ab40f3d2b23f70b2d64b3a7af0344bffebb1e"
 dependencies = [
  "chrono",
  "regex",
