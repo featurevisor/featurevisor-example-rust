@@ -6,5 +6,5 @@ rust-version = "1.74.0"
 publish = false
 
 [dependencies]
-featurevisor = "0.1"
+featurevisor = "1.0"
 reqwest = { version = "0.11", default-features = false, features = ["blocking", "rustls-tls"] }
